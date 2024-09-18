@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            height: 15vh;
+            width: 100%;
+            background-color: rgba(164, 97, 227, 0.749);
+            border: 2px solid black;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: large;
+            border: 10px;
+            border-radius: 25px;
+            border: 3px solid wheat;
+            padding: 5px 10px;
+            background-color: tomato;
+            margin-left: 40px;
+        }
+
+        nav a:hover {
+            background-color: yellowgreen;
+            color: black;
+            cursor: pointer;
+        }
+
+        nav h1 {
+            font-weight: bold;
+            font-size: 30px;
+            color: rgba(26, 7, 169, 0.855);
+            margin-left: 30px;
+        }
+
+        .image {
+            background-image: url("./matrix.jfif");
+            height: 150px;
+            background-attachment: fixed;
+            border: 4px groove black;
+
+        }
+
+
+        center {
+            padding-top: 25px;
+
+        }
+
+        main {
+            height: 120vh;
+            width: 100%;
+            background: linear-gradient(rgb(41, 240, 240), rgb(127, 10, 156), white);
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            top: 10px;
+
+        }
+
+        main img {
+            height: 300px;
+            width: 450px;
+
+        }
+        main p{
+            font-size: 20px;
+            line-height: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1>ESCAPE FROM TECH</h1>
+        <a href="index.html"><i class="fa-solid fa-house" style="color: #f7f7f8;"></i> HOME</a>
+        <a href="#"><i class="fa-solid fa-circle-info" style="color: #ffffff;"></i> INFORMATION</a>
+        <a href="search.html"><i class="fa-solid fa-magnifying-glass fa-shake" style="color: #fcfcfd;"></i>SEARCH</a>
+    </nav>
+    <br>
+    <div class="image">
+        <center>
+            <h1
+                style="font-size: 40px; color: rgb(236, 145, 8); border: 2px solid rgb(2, 48, 2); width: 600px; font-family:algerian; background-color: white;">
+                Escape From Technology</h1>
+        </center>
+    </div>
+    <main>
+        <center>
+
+            <h1 style="font-size: 40px;">CREDITS</h1>
+            <p>- Code Olympic for bringing this website to birth.</p>
+            <p>- My CodeYoung Teacher, Miss Kawaljeet</p>
+            <p>- My Hands</p>
+            <img src="./Hands.png" alt="">
+            <h2 style="font-size: 30px;">Answers to Puzzles:</h2>
+            <p>Puzzle One: <b>"Wires"</b> ; You needed to cut the Red Wire.</p>
+            <p>Puzzle Two: <b>"Cave Riddle"</b> ; A Candle is tall when it's young and short when it's old.</p>
+            <p>Puzzle Three: <b>"Rock Finder"</b> ; Number 15 was the right rock. It had a slightly different color.
+            </p>
+            <p>Puzzle Four: <b>"Crosswords"</b> ; Candle was the right answer once again.
+            </p>
+            <p>Puzzle Five: <b>"Escape"</b> ; The future was the answer. If you got it, you saved Ryan's future!
+            </p>
+        </center>
+    </main>
+
+</body>
+
+</html>
